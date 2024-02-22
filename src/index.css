@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333333;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    color: #333333;
+    font-weight: 700;
+}
+
+a {
+    color: #333333;
+}
+
+p {
+    color: #333333;
+}
+
+.MuiToolbar-regular {
+    padding: 0 !important;
+}
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none !important;
+    border-bottom: 1 solid #ccc;
+}
+
+.swiper-button-prev::after {
+    font-size: 30px !important;
+    color: #2251CF;
+}
+
+.swiper-button-next::after {
+    font-size: 30px !important;
+    color: #2251CF;
+}
