@@ -11,8 +11,6 @@ import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { HiBars3 } from "react-icons/hi2";
 
-
-
 const Header = () => {
     function HideOnScroll(props) {
         const { children, window } = props;
@@ -41,7 +39,6 @@ const Header = () => {
             padding: '0 4px',
         },
     }));
-
     return (
         <>
             <HideOnScroll className="shadow-none">
