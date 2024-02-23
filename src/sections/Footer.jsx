@@ -32,7 +32,7 @@ const Footer = () => {
                         <a className="link link-hover text-gray-400">Return Policynp</a>
                     </nav>
                 </footer>
-                <p className="text-gray-400 capitalize text-center md:pb-8 text-sm">Copyright © 2024 - All right reserved by ByteBazaar. Made with love by Junayed Noman.</p>
+                <p className="text-gray-400 capitalize text-center pb-8 text-sm">Copyright © 2024 - All right reserved by ByteBazaar. Made with love by Junayed Noman.</p>
             </Container>
         </div>
     );

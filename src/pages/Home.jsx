@@ -1,8 +1,12 @@
 import Container from "../components/Container";
 import Banner from "../sections/Banner";
+import DiscountedProduct from "../sections/DiscountedProduct";
 import FeaturedCategories from "../sections/FeaturedCategories";
 import FeaturedProducts from "../sections/FeaturedProducts";
+import Features from "../sections/Features";
 import GridPromo from "../sections/GridPromo";
+import GridPromo2 from "../sections/GridPromo2";
+import Review from "../sections/Review";
 
 const Home = () => {
     return (
@@ -12,7 +16,10 @@ const Home = () => {
                 <FeaturedCategories></FeaturedCategories>
                 <GridPromo></GridPromo>
                 <FeaturedProducts></FeaturedProducts>
-                <GridPromo></GridPromo>
+                <GridPromo2></GridPromo2>
+                <DiscountedProduct></DiscountedProduct>
+                <Review></Review>
+                <Features></Features>
             </Container>
         </div>
     );
