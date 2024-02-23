@@ -62,7 +62,9 @@ const Header = () => {
                                         </form>
                                     </div>
                                     <div className="flex items-center gap-x-5 md:order-3 order-2 md:mr-0 mr-3">
-                                        <VscAccount className="text-2xl text-[#333333]"></VscAccount>
+                                        <Link to="/login">
+                                            <VscAccount className="text-2xl text-[#333333]"></VscAccount>
+                                        </Link>
                                         <StyledBadge badgeContent={4} color="primary">
                                             <LuHeart className="text-[25px] text-[#333333]" />
                                         </StyledBadge>
