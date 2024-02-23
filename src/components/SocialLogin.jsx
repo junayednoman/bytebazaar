@@ -4,7 +4,7 @@ import googleImg from "../assets/google.png"
 import linkedinImg from "../assets/linkedin.png"
 import twitterImg from "../assets/twitter.png"
 
-const SocialLogin = () => {
+const SocialLogin = ({ link, text }) => {
     return (
         <div className="mt-8">
             <div className="divider">OR</div>
@@ -15,7 +15,7 @@ const SocialLogin = () => {
                 <img className="max-w-[35px] cursor-pointer" src={twitterImg}></img>
             </div>
 
-            <p className="text-sm text-center mt-10">Don't have an account ? <Link className="text-primaryColor font-medium underline" to="/sign-up">SIGN UP</Link></p>
+            <p className="text-sm text-center mt-10">Don't have an account ? <Link className="text-primaryColor font-medium underline uppercase" to={link}>{text}</Link></p>
         </div>
     );
 };
