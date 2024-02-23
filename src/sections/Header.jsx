@@ -119,8 +119,8 @@ export default Header;
 const menuItems = [
     { text: "home", url: "/" },
     { text: "shop", url: "/" },
-    { text: "products", url: "/" },
-    { text: "categories", url: "/" },
+    { text: "add product", url: "/" },
+    { text: "my cart", url: "/" },
     { text: "blog", url: "/" },
     { text: "contact", url: "/" },
 ]
