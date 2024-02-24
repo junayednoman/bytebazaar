@@ -11,6 +11,7 @@ import Shop from './pages/Shop.jsx';
 import MyContextProvider from './my context/MyContext.jsx';
 import Login from './pages/Login.jsx';
 import SignUp from './pages/SignUp.jsx';
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {

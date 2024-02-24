@@ -1,4 +1,5 @@
 import Container from "../components/Container";
+import useContextInfo from "../custom hooks/useContextInfo";
 import Banner from "../sections/Banner";
 import DiscountedProduct from "../sections/DiscountedProduct";
 import FeaturedCategories from "../sections/FeaturedCategories";
@@ -9,6 +10,8 @@ import GridPromo2 from "../sections/GridPromo2";
 import Review from "../sections/Review";
 
 const Home = () => {
+    const { user } = useContextInfo();
+    console.log(user);
     return (
         <div className="md:mt-32 mt-44">
             <Container>
